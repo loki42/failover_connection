@@ -7,4 +7,7 @@ In the event of an connection error, the first connection gets a write lock and 
 
 This is the inital version and it's probably very broken. A number of things are not yet handled properly.
 
+I orignally wrote this using zc.zk and zktools. The currently don't work with gevent though so i've rewritten it to use kazoo. I've tested it with and without gvent and currently
+use it with both. 
+
 I'll do a write up soon about ZooKeeper on the Gravity Four blog.
